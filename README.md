@@ -6,7 +6,7 @@
 <br>- Easy FREE!!!! tester vašich znalostí z prvních 9 okruhů + 25
 <br>- V případě chyby nahlašte vedení - mě
 <br>- Pokud někdo má pog nápad na zlepšení a bude na to čas tak bude implementován
-<br>- 
+<br>- Spolupráce s: Martin Hercík
 
 <h2>!!UPDATE!!</h2>
 <br>- now ft. Chris Abraham zatim bez souhlasu :( 
