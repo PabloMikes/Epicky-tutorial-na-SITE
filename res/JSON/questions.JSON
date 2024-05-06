@@ -1,0 +1,141 @@
+{
+  "one": [
+    { "count": 12 },
+    { "question": "Proč používáme vrstvové modely" },
+    { "question": "Modely ISO/OSI a TCP/IP" },
+    { "question": "Popiš fyzickou vrstvu" },
+    { "question": "Popiš linkovou vrstvu" },
+    { "question": "Popiš síťovou vrstvu" },
+    { "question": "Popiš transportní vrstvu" },
+    { "question": "Popiš relační vrstvu" },
+    { "question": "Popiš prezentační vrstvu" },
+    { "question": "Popiš aplikační vrstvu" },
+    { "question": "Dělení sítí podle rozlehlost" },
+    { "question": "Dělení sítí podle provozovatele" },
+    { "question": "Dělení sítí podle postavení uzlů" }
+  ],
+  "two": [
+    { "count": 10 },
+    { "question": "Vysvětli pojem a složení struktorované kabeláže" },
+    { "question": "Druhy kabelů" },
+    { "question": "Patch kabely" },
+    { "question": "Zásuvky" },
+    { "question": "Dělení podle stínění" },
+    { "question": "Dělení podle kategorie" },
+    { "question": "Spojování metalických kabelů, krimpování" },
+    { "question": "Složení optického vlákna" },
+    { "question": "Snellův zákon" },
+    { "question": "Používané materiály u vláken" }
+  ],
+  "three": [
+    { "count": 8 },
+    { "question": "Co je to Ethernet" },
+    { "question": "Detailně popište ethernetový rámec" },
+    { "question": "Detailně vysvětlete přístupovou metodu CSMA/CD" },
+    { "question": "Jaké jsou standardy Ethernetu" },
+    {
+      "question": "Uveďte rychlosti Ethernetu od historických až po nejnovější"
+    },
+    { "question": "Co to je fyzická adresa" },
+    { "question": "Co to je ARP" },
+    {
+      "question": "Porovnejte hub a switch, u switche popište základní operace"
+    }
+  ],
+  "four": [
+    { "count": 7 },
+    { "question": "Výhody a nevýhody bezdrátu" },
+    { "question": "Vysvětli pojem Wi-fi" },
+    { "question": "Vysvětli pojem Bluetooth" },
+    { "question": "Kmitočet" },
+    { "question": "Vlnová délka" },
+    { "question": "Pásma u bezdrátu" },
+    { "question": "Popiš kanály" }
+  ],
+  "five": [
+    { "count": 15 },
+    { "question": "Co je to Ethernet" },
+    {
+      "question": "Vysvětlete funkci síťové vrstvy a popište služby síťové vrstvy"
+    },
+    { "question": "Jaké máme routovací protokoly" },
+    { "question": "Co je to ARP, RARP" },
+    { "question": "Co je to ICMP" },
+    { "question": "Detailně popište PDU používané v síťové vrstvě" },
+    { "question": "Hlavička IPv4" },
+    { "question": "Hlavička IPv6" },
+    { "question": "Co je směrování, popište ho podrobně krok za krokem" },
+    { "question": "Popište adresu IPv4" },
+    { "question": "Popište adresu IPv6" },
+    { "question": "Třídní dělení" },
+    { "question": "Privátní adresy" },
+    { "question": "Popište zařízení pracující na síťové vrstvě" }
+  ],
+  "six": [
+    { "count": 17 },
+    { "question": "Co je DoS" },
+    { "question": "Co je DDoS" },
+    { "question": "Vyjmenuj utoky na infrastrukturu a servery" },
+    { "question": "Co je flood" },
+    { "question": "Co je ping of Death" },
+    { "question": "Vyjmenuj utoky na WI-FI" },
+    { "question": "Co je Man in the middle" },
+    { "question": "Co je honeypots" },
+    { "question": "Co je spoofing" },
+    { "question": "Vyjmenuj utoky na email" },
+    { "question": "co je to phising" },
+    { "question": "co je to TGTBT" },
+    { "question": "co je to Sense of urgency" },
+    { "question": "Vyjmenuj utoky na autentizační udaje" },
+    { "question": "Co je KRACK" },
+    { "question": "Co je Brute Force" },
+    { "question": "Co je SQL injection" }
+  ],
+  "seven": [
+    { "count": 5 },
+    {
+      "question": "Zařazení protokolu RIP dle velikosti sítě, principu činnost"
+    },
+    { "question": "Verze RIP protokolu a rozdíly mezi nimi" },
+    { "question": "Podrobný popis principu aktualizace směrovacích tabulek" },
+    { "question": "Časové intervaly, nekonečná vzdálenost" },
+    {
+      "question": "Změny v topologii split horizon, triggered update, reverse, cache poison"
+    }
+  ],
+  "eight": [
+    { "count": 9 },
+    { "question": "Výhody OSPF" },
+    { "question": "Rozdíly s RIP" },
+    { "question": "Dělení OSPF" },
+    { "question": "Co je vztah sousedů" },
+    { "question": "Co je vztah adjency" },
+    { "question": "Djikstrův algoritmus" },
+    { "question": "Typy routerů v OSPF" },
+    { "question": "Typy oblastí v OSPF" },
+    { "question": "Kde se používá a co je BGP" }
+  ],
+  "nine": [
+    { "count": 4 },
+    {
+      "question": "Vysvětlete význam transportní vrstvy, vyjmenujte a popište služby transportní vrstvy"
+    },
+    { "question": "Adresace v transportní vrstvě, uveďte příklad" },
+    {
+      "question": "Detailně popište PDU používané v transportní vrstvě, popište datagram a segment"
+    },
+    {
+      "question": "popište službu TCP a UDP, u TCP podrobně popište proces navázání a ukončení spojení"
+    }
+  ],
+  "twentyfive": [
+    { "count": 7 },
+    { "question": "co je šifra" },
+    { "question": "co je symetrická šifra + výhody a nevýhody" },
+    { "question": "co je asymetrická šifra + výhody a nevýhody" },
+    { "question": "Co je hash" },
+    { "question": "Co je elektronický podpis" },
+    { "question": "Co je S/MIME" },
+    { "question": "SSL a TLS Handshake" }
+  ]
+}
