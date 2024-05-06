@@ -12,3 +12,4 @@
 <br>- now ft. Chris Abraham zatim bez souhlasu :( 
 <br>- pls donate fotešky tohoto muže thx
 <br>- bug fixes - 5. okruh opraven
+<br>- opravit obrázky ig....
