@@ -7,6 +7,6 @@
 <br> V případě chyby nahlašte vedení - mě
 
 <h2>!!UPDATE!!</h2>
-now ft. Chris Abraham (zatim bez souhlasu :( )
-pls donate fotešky tohoto muže thx
-bug fixes - 5. okruh opraven
+<br>now ft. Chris Abraham zatim bez souhlasu :( 
+<br>pls donate fotešky tohoto muže thx
+<br>bug fixes - 5. okruh opraven
