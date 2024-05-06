@@ -34,64 +34,64 @@ async function rollQuestion() {
     switch (randomPackage) {
       case 0:
         randomQuestion = Math.floor(Math.random() * data.one[0].count + 1);
-        console.log(randomQuestion);
-        console.log(randomPackage);
+        console.log("Okruh: " + randomPackage);
+        console.log("Otazecka: " + randomQuestion);
         question.innerHTML = data.one[randomQuestion].question;
         break;
       case 1:
         randomQuestion = Math.floor(Math.random() * data.two[0].count + 1);
-        console.log(randomQuestion);
-        console.log(randomPackage);
+        console.log("Okruh: " + randomPackage);
+        console.log("Otazecka: " + randomQuestion);
         question.innerHTML = data.two[randomQuestion].question;
         break;
       case 2:
         randomQuestion = Math.floor(Math.random() * data.three[0].count + 1);
-        console.log(randomQuestion);
-        console.log(randomPackage);
+        console.log("Okruh: " + randomPackage);
+        console.log("Otazecka: " + randomQuestion);
         question.innerHTML = data.three[randomQuestion].question;
         break;
       case 3:
         randomQuestion = Math.floor(Math.random() * data.four[0].count + 1);
-        console.log(randomQuestion);
-        console.log(randomPackage);
+        console.log("Okruh: " + randomPackage);
+        console.log("Otazecka: " + randomQuestion);
         question.innerHTML = data.four[randomQuestion].question;
         break;
       case 4:
         randomQuestion = Math.floor(Math.random() * data.five[0].count + 1);
-        console.log(randomQuestion);
-        console.log(randomPackage);
+        console.log("Okruh: " + randomPackage);
+        console.log("Otazecka: " + randomQuestion);
         question.innerHTML = data.five[randomQuestion].question;
         break;
       case 5:
         randomQuestion = Math.floor(Math.random() * data.six[0].count + 1);
-        console.log(randomQuestion);
-        console.log(randomPackage);
+        console.log("Okruh: " + randomPackage);
+        console.log("Otazecka: " + randomQuestion);
         question.innerHTML = data.six[randomQuestion].question;
         break;
       case 6:
         randomQuestion = Math.floor(Math.random() * data.seven[0].count + 1);
-        console.log(randomQuestion);
-        console.log(randomPackage);
+        console.log("Okruh: " + randomPackage);
+        console.log("Otazecka: " + randomQuestion);
         question.innerHTML = data.seven[randomQuestion].question;
         break;
       case 7:
         randomQuestion = Math.floor(Math.random() * data.eight[0].count + 1);
-        console.log(randomQuestion);
-        console.log(randomPackage);
+        console.log("Okruh: " + randomPackage);
+        console.log("Otazecka: " + randomQuestion);
         question.innerHTML = data.eight[randomQuestion].question;
         break;
       case 8:
         randomQuestion = Math.floor(Math.random() * data.nine[0].count + 1);
-        console.log(randomQuestion);
-        console.log(randomPackage);
+        console.log("Okruh: " + randomPackage);
+        console.log("Otazecka: " + randomQuestion);
         question.innerHTML = data.nine[randomQuestion].question;
         break;
       case 9:
         randomQuestion = Math.floor(
           Math.random() * data.twentyfive[0].count + 1
         );
-        console.log(randomQuestion);
-        console.log(randomPackage);
+        console.log("Okruh: " + randomPackage);
+        console.log("Otazecka: " + randomQuestion);
         question.innerHTML = data.twentyfive[randomQuestion].question;
         break;
     }
@@ -126,12 +126,19 @@ rating[0].onclick = () => {
   } else {
     streak++;
   }
+  if(streak >= 10){
+    image.style.backgroundImage = "url(../res/images/chrisSTREAK.jpg)"
+  }
+  else if(streak >= 5){
+    image.style.backgroundImage = `url(../res/images/chrishappier.png)`
+  }
   counter.innerHTML = `Streak: ${streak}`;
   rollQuestion();
 };
 rating[1].onclick = () => {
   if (streak > 0) {
     streak = 0;
+    image.style.backgroundImage = `url(../res/images/chrisneutral.jpg)`
   } else {
     streak--;
   }

@@ -53,7 +53,7 @@
     { "question": "Popiš kanály" }
   ],
   "five": [
-    { "count": 15 },
+    { "count": 14 },
     { "question": "Co je to Ethernet" },
     {
       "question": "Vysvětlete funkci síťové vrstvy a popište služby síťové vrstvy"

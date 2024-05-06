@@ -42,11 +42,14 @@ body {
 }
 #counter {
   font-size: 2vh;
-  text-align: center;
-}
-#image {
-  width: 100%;
 }
 #box {
   display: flex;
+}
+#image{
+    background-image: url(../images/chrisneutral.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50vh;
+    height: 50vh;
 }
