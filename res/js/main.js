@@ -1,5 +1,7 @@
 const start = document.getElementById("start");
 const question = document.getElementById("question");
+const accuracyCounter = document.getElementById("accuracyCounter");
+const mark = document.getElementById("mark");
 const images = document.getElementsByClassName("images");
 const counter = document.getElementById("counter");
 const package = document.getElementsByClassName("package");
@@ -8,6 +10,9 @@ const rating = document.getElementsByClassName("rating");
 let packageArray = [true, true, true, true, true, true, true, true, true, true];
 
 let streak = 0;
+let numberOfQuestions = 0;
+let accuracy = 0;
+let avg = 0;
 
 start.onclick = () => {
   rating[0].style.display = "block";
@@ -100,6 +105,23 @@ async function rollQuestion() {
   }
 }
 
+function proposedMark() {
+  numberOfQuestions++;
+  avg = accuracy / numberOfQuestions;
+  accuracyCounter.innerHTML = "Accuracy: " + Math.floor(avg) + "%";
+  if (avg >= 90) {
+    mark.innerHTML = "Mark: " + 1;
+  } else if (avg >= 80) {
+    mark.innerHTML = "Mark: " + 2;
+  } else if (avg >= 70) {
+    mark.innerHTML = "Mark: " + 3;
+  } else if (avg >= 60) {
+    mark.innerHTML = "Mark: " + 4;
+  } else {
+    mark.innerHTML = "Mark: " + 5;
+  }
+}
+
 window.onload = () => {
   for (let i = 0; i < package.length; i++) {
     package[i].addEventListener("click", state(i));
@@ -122,28 +144,31 @@ function state(param) {
 }
 
 rating[0].onclick = () => {
+  accuracy += 100;
+  proposedMark();
   if (streak < 0) {
     streak = 0;
   } else {
     streak++;
   }
-  if(streak >= 10){
-    images[2].style.display = "block"
-    images[1].style.display = "none"
-  }
-  else if(streak >= 5){
-    images[1].style.display = "block"
-    images[0].style.display = "none"
+  if (streak >= 10) {
+    images[2].style.display = "block";
+    images[1].style.display = "none";
+  } else if (streak >= 5) {
+    images[1].style.display = "block";
+    images[0].style.display = "none";
   }
   counter.innerHTML = `Streak: ${streak}`;
   rollQuestion();
 };
 rating[1].onclick = () => {
+  numberOfQuestions++;
+  proposedMark();
   if (streak > 0) {
     streak = 0;
-    images[2].style.display = "none"
-    images[1].style.display = "none"
-    images[0].style.display = "block"
+    images[2].style.display = "none";
+    images[1].style.display = "none";
+    images[0].style.display = "block";
   } else {
     streak--;
   }

@@ -43,6 +43,12 @@ body {
 #counter {
   font-size: 2vh;
 }
+#accuracyCounter {
+  font-size: 2vh;
+}
+#mark {
+  font-size: 2vh;
+}
 #box {
   display: flex;
 }
