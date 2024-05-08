@@ -104,6 +104,7 @@ window.onload = () => {
   for (let i = 0; i < package.length; i++) {
     package[i].addEventListener("click", state(i));
   }
+  image.style.backgroundImage = "url(../res/images/chrisneutral.jpg)";
 };
 
 function state(param) {

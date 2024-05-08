@@ -47,7 +47,6 @@ body {
   display: flex;
 }
 #image{
-    background-image: url(../images/chrisneutral.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 50vh;
