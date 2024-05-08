@@ -8,8 +8,9 @@
 <br>- Pokud někdo má pog nápad na zlepšení a bude na to čas tak bude implementován
 <br>- Spolupráce s: [@MartinCZE1](https://github.com/MartinCZE1)
 
-<h2>!!UPDATE!!</h2>
+<h2>!!UPDATES!!</h2>
 <br>- now ft. Chris Abraham zatim bez souhlasu :( 
 <br>- pls donate fotešky tohoto muže thx
 <br>- bug fixes - 5. okruh opraven
 <br>- obrázky done (Lidl)
+<br>- Přesnost a známky pridány 
