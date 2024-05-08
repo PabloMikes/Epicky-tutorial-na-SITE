@@ -9,7 +9,7 @@
 <br>- Spolupráce s: [@MartinCZE1](https://github.com/MartinCZE1)
 
 <h2>!!UPDATES!!</h2>
-<br>- now ft. Chris Abraham zatim bez souhlasu :( 
+<br>- now ft. Chris Abraham approved by Chris Abraham 
 <br>- pls donate fotešky tohoto muže thx
 <br>- bug fixes - 5. okruh opraven
 <br>- obrázky done (Lidl)
