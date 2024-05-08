@@ -1,6 +1,6 @@
 const start = document.getElementById("start");
 const question = document.getElementById("question");
-const image = document.getElementById("image");
+const images = document.getElementsByClassName("images");
 const counter = document.getElementById("counter");
 const package = document.getElementsByClassName("package");
 const rating = document.getElementsByClassName("rating");
@@ -104,7 +104,7 @@ window.onload = () => {
   for (let i = 0; i < package.length; i++) {
     package[i].addEventListener("click", state(i));
   }
-  image.style.backgroundImage = "url(../res/images/chrisneutral.jpg)";
+  images[0].style.display = "block";
 };
 
 function state(param) {
@@ -128,10 +128,12 @@ rating[0].onclick = () => {
     streak++;
   }
   if(streak >= 10){
-    image.style.backgroundImage = "url(../res/images/chrisSTREAK.jpg)"
+    images[2].style.display = "block"
+    images[1].style.display = "none"
   }
   else if(streak >= 5){
-    image.style.backgroundImage = `url(../res/images/chrishappier.png)`
+    images[1].style.display = "block"
+    images[0].style.display = "none"
   }
   counter.innerHTML = `Streak: ${streak}`;
   rollQuestion();
@@ -139,7 +141,9 @@ rating[0].onclick = () => {
 rating[1].onclick = () => {
   if (streak > 0) {
     streak = 0;
-    image.style.backgroundImage = `url(../res/images/chrisneutral.jpg)`
+    images[2].style.display = "none"
+    images[1].style.display = "none"
+    images[0].style.display = "block"
   } else {
     streak--;
   }

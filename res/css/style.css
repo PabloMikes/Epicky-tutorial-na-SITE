@@ -46,9 +46,10 @@ body {
 #box {
   display: flex;
 }
-#image{
+.images{
     background-repeat: no-repeat;
     background-size: contain;
     width: 50vh;
     height: 50vh;
+    display: none;
 }
